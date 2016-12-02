@@ -7,7 +7,14 @@ body{
 .box {
   box-sizing: border-box;
   background-color: black;
-  height: 100px;
+  height: 600px;
+  overflow: hidden;
+}
+.boxtop {
+  box-sizing: border-box;
+  background-color: black;
+  height: 600px;
+  overflow: hidden;
 }
 
 img.large {
@@ -15,8 +22,7 @@ img.large {
   border: 25px solid $green;
   height: 100%;
   width: 100%;
-object-fit: cover;
-
+  object-fit: cover;
 }
 
 .sciImage {
@@ -24,3 +30,13 @@ object-fit: cover;
   color: black;
   width: 100%;
 }
+
+h1  {
+color: $white;
+background-color: black;}
+
+h2 {
+background-color: black;}
+
+p {
+background-color: black;}

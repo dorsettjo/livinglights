@@ -1,12 +1,35 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat+Subrayada%7COswald%7CPoppins");
 @import url("https://fonts.googleapis.com/css?family=Montserrat+Subrayada%7COswald%7CPoppins");
+H1 {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  color: white;
+  font-size: 60 px; }
+
+H2 {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 40 px; }
+
+p {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 18 px; }
+
 body {
   margin: 0px; }
 
 .box {
   box-sizing: border-box;
   background-color: black;
-  height: 100px; }
+  height: 600px;
+  overflow: hidden; }
+
+.boxtop {
+  box-sizing: border-box;
+  background-color: black;
+  height: 600px;
+  overflow: hidden; }
 
 img.large {
   box-sizing: border-box;
@@ -19,5 +42,15 @@ img.large {
   height: 500px;
   color: black;
   width: 100%; }
+
+h1 {
+  color: #ffffff;
+  background-color: black; }
+
+h2 {
+  background-color: black; }
+
+p {
+  background-color: black; }
 
 /*# sourceMappingURL=style.css.map */
