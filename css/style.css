@@ -1,3 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Subrayada%7COswald%7CPoppins");
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Subrayada%7COswald%7CPoppins");
+body {
+  margin: 0px; }
 
+.box {
+  box-sizing: border-box;
+  background-color: black;
+  height: 100px; }
+
+img.large {
+  box-sizing: border-box;
+  border: 25px solid #a9d416;
+  height: 100%;
+  width: 100%;
+  object-fit: cover; }
+
+.sciImage {
+  height: 500px;
+  color: black;
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
