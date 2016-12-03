@@ -24,11 +24,6 @@ jQuery(document).ready(function() {
   });
 });
 
-jQuery(document).ready(function() {
-  $('.imageclickE').click(function() {
-    $( ".clickedimageE" ).toggle( "slide" );
-  });
-});
 
 jQuery(document).ready(function() {
   $('.imageclickE').click(function() {
@@ -45,5 +40,11 @@ jQuery(document).ready(function() {
 jQuery(document).ready(function() {
   $('.imageclickG').click(function() {
     $( ".clickedimageG" ).toggle( "slide" );
+  });
+});
+
+jQuery(document).ready(function() {
+  $('.imageclickH').click(function() {
+    $( ".clickedimageH" ).toggle( "slide" );
   });
 });
