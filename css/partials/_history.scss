@@ -1,35 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada%7COswald%7CPoppins');
 
-// the beginning of the past/present/future page with Chrome Experiment
-// html, body {
-// 	margin:0;
-//   overflow:hidden;
-// }
-// .cloud {
-//   margin:0;
-//   overflow:hidden;
-//   height: 500px;
-//     color: $blue;
-// }
 
 
 
 body{
   margin: 0px;
 }
+.navBar {
+  box-sizing: border-box;
+  background-color: yellow;
+  height: 100px;
+  overflow: hidden;
+}
 
-.box {
+.boxBlue {
   box-sizing: border-box;
   background-color: black;
   overflow:hidden;
+  border-bottom: 2px solid $blue;
   // height: 600px;
   // overflow: hidden;
 }
-.boxtop {
+.boxtopHistory {
   box-sizing: border-box;
   background-color: black;
-  height: 600px;
+  height: 150px;
   overflow: hidden;
+  border-bottom: 2px solid $blue;
+  .titles {text-align: center}
 }
 
 .hisImageLG {
@@ -42,7 +40,6 @@ body{
 
 img.large {
   box-sizing: border-box;
-  border: 25px solid $blue;
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -71,6 +68,20 @@ img.large {
     padding-right: 20px;
     padding-top: 20px;
   }
+  .image-with-text-ball {
+    background-color: black;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    p {
+    text-align: center;;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  }
 }
 
 .image-small {
@@ -79,6 +90,16 @@ img.large {
   float: left;
   margin-right: 10px;
 }
+
+.image-ball {
+  box-sizing: border-box;
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  float: left;
+  // object-fit: cover;
+}
+
 
 .small {
   width: 100%;
@@ -101,6 +122,17 @@ img.large {
   float:right;
   width: 45%;
   margin: 10px;
+}
+.textCreative {
+  float:right;
+  width: 45%;
+  margin: 10px;
+}
+.image-creative {
+  width: 80%;
+  height: 500px;
+  float: left;
+  margin-right: 10px;
 }
 
 h1  {

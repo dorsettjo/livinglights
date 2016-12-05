@@ -9,7 +9,7 @@ H2 {
   font-family: 'Oswald', sans-serif;
   color: white;
   text-transform: uppercase;
-  font-size: 40 px; }
+  font-size: 36 px; }
 
 p {
   font-family: 'Poppins', sans-serif;
@@ -19,16 +19,26 @@ p {
 body {
   margin: 0px; }
 
-.box {
+.navBar {
   box-sizing: border-box;
-  background-color: black;
+  background-color: yellow;
+  height: 100px;
   overflow: hidden; }
 
-.boxtop {
+.boxGreen {
   box-sizing: border-box;
   background-color: black;
-  height: 600px;
-  overflow: hidden; }
+  overflow: hidden;
+  border-bottom: 2px solid #a9d416; }
+
+.boxtopScience {
+  box-sizing: border-box;
+  background-color: black;
+  height: 150px;
+  overflow: hidden;
+  border-bottom: 2px solid #a9d416; }
+  .boxtopScience .titles {
+    text-align: center; }
 
 .sciImageLG {
   height: 500px;
@@ -38,7 +48,6 @@ body {
 
 img.large {
   box-sizing: border-box;
-  border: 25px solid #a9d416;
   height: 100%;
   width: 100%;
   object-fit: cover; }
@@ -82,16 +91,26 @@ p {
 body {
   margin: 0px; }
 
-.box {
+.navBar {
   box-sizing: border-box;
-  background-color: black;
+  background-color: yellow;
+  height: 100px;
   overflow: hidden; }
 
-.boxtop {
+.boxBlue {
   box-sizing: border-box;
   background-color: black;
-  height: 600px;
-  overflow: hidden; }
+  overflow: hidden;
+  border-bottom: 2px solid #103559; }
+
+.boxtopHistory {
+  box-sizing: border-box;
+  background-color: black;
+  height: 150px;
+  overflow: hidden;
+  border-bottom: 2px solid #103559; }
+  .boxtopHistory .titles {
+    text-align: center; }
 
 .hisImageLG {
   height: 500px;
@@ -101,7 +120,6 @@ body {
 
 img.large {
   box-sizing: border-box;
-  border: 25px solid #103559;
   height: 100%;
   width: 100%;
   object-fit: cover; }
@@ -126,12 +144,31 @@ img.large {
     padding-left: 70px;
     padding-right: 20px;
     padding-top: 20px; }
+  .image-with-text .image-with-text-ball {
+    background-color: black;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10; }
+    .image-with-text .image-with-text-ball p {
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px; }
 
 .image-small {
   width: 45%;
   height: 500px;
   float: left;
   margin-right: 10px; }
+
+.image-ball {
+  box-sizing: border-box;
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  float: left; }
 
 .small {
   width: 100%;
@@ -153,6 +190,17 @@ img.large {
   float: right;
   width: 45%;
   margin: 10px; }
+
+.textCreative {
+  float: right;
+  width: 45%;
+  margin: 10px; }
+
+.image-creative {
+  width: 80%;
+  height: 500px;
+  float: left;
+  margin-right: 10px; }
 
 h1 {
   color: #ffffff;

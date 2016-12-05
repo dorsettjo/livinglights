@@ -4,18 +4,28 @@ body{
   margin: 0px;
 }
 
-.box {
+.navBar {
+  box-sizing: border-box;
+  background-color: yellow;
+  height: 100px;
+  overflow: hidden;
+}
+
+.boxGreen {
   box-sizing: border-box;
   background-color: black;
   overflow:hidden;
+   border-bottom: 2px solid $green;
   // height: 600px;
   // overflow: hidden;
 }
-.boxtop {
+.boxtopScience {
   box-sizing: border-box;
   background-color: black;
-  height: 600px;
+  height: 150px;
   overflow: hidden;
+  border-bottom: 2px solid $green;
+  .titles {text-align: center}
 }
 
 .sciImageLG {
@@ -28,11 +38,19 @@ body{
 
 img.large {
   box-sizing: border-box;
-  border: 25px solid $green;
+  // border-bottom: 2px solid $green;
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
+
+// img.large.history {
+//   box-sizing: border-box;
+//   border-bottom: 2px solid $blue;
+//   height: 100%;
+//   width: 100%;
+//   object-fit: cover;
+// }
 
 .sciImageLG {
   position: relative;
