@@ -163,13 +163,6 @@ img.large {
   float: left;
   margin-right: 10px; }
 
-.image-ball {
-  box-sizing: border-box;
-  height: 500px;
-  width: 100%;
-  object-fit: cover;
-  float: left; }
-
 .small {
   width: 100%;
   height: 100%;
@@ -202,6 +195,23 @@ img.large {
   float: left;
   margin-right: 10px; }
 
+.CreativeCloud img {
+  opacity: 1; }
+
+.MobileCreativeCloud img {
+  display: none;
+  opacity: 0; }
+
+.image-ball {
+  box-sizing: border-box;
+  height: 500px;
+  width: 60%;
+  object-fit: cover; }
+
+.text-ball {
+  width: 100%;
+  float: none; }
+
 h1 {
   color: #ffffff;
   background-color: black; }
@@ -211,5 +221,51 @@ h2 {
 
 p {
   background-color: black; }
+
+@media (max-width: 767px) {
+  .CreativeCloud img {
+    display: none;
+    opacity: 0; }
+
+  .MobileCreativeCloud img {
+    display: block;
+    opacity: 1; }
+
+  img.large {
+    display: none;
+    opacity: 0; }
+
+  .hisImageLG {
+    height: 1000px; }
+
+  .image-small {
+    float: none;
+    clear: both;
+    width: 100%; }
+
+  .textPast, .textPresent, .textFuture, .textCreative {
+    float: none;
+    clear: both;
+    width: 100%;
+    margin: 10px; }
+
+  .image-with-text h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 2px;
+    text-align: center;
+    font-size: 16px;
+    margin: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px; }
+
+  .image-with-text p {
+    text-align: center;
+    font-size: 16px;
+    margin: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
