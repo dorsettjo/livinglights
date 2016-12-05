@@ -116,11 +116,22 @@ img.large {
   top: 0;
   left: 0;
   z-index: -10; }
+  .image-with-text p {
+    text-align: right;
+    padding-left: 70px;
+    padding-right: 20px;
+    padding-top: 20px; }
+  .image-with-text h1 {
+    text-align: right;
+    padding-left: 70px;
+    padding-right: 20px;
+    padding-top: 20px; }
 
 .image-small {
   width: 45%;
   height: 500px;
-  float: left; }
+  float: left;
+  margin-right: 10px; }
 
 .small {
   width: 100%;
@@ -128,9 +139,20 @@ img.large {
   object-fit: cover;
   float: left; }
 
-.textH {
+.textPast {
   float: right;
-  width: 45%; }
+  width: 45%;
+  margin: 10px; }
+
+.textPresent {
+  float: right;
+  width: 45%;
+  margin: 10px; }
+
+.textFuture {
+  float: right;
+  width: 45%;
+  margin: 10px; }
 
 h1 {
   color: #ffffff;

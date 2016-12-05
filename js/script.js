@@ -49,14 +49,31 @@ jQuery(document).ready(function() {
   });
 });
 
+// the beginning of the history
+
+
 jQuery(document).ready(function() {
   $('.imageclickPast').click(function() {
     $( ".clickedimagePast" ).toggle( "slide" );
   });
 });
 
+jQuery(document).ready(function() {
+  $('.imageclickPresent').click(function() {
+    $( ".clickedimagePresent" ).toggle( "slide" );
+  });
+});
 
-// the begining of the past/present/future
+jQuery(document).ready(function() {
+  $('.imageclickFuture').click(function() {
+    $( ".clickedimageFuture" ).toggle( "slide" );
+  });
+});
+
+// the end of the history
+
+
+// the begining of future dream
 // .cloud {
 // color: black;
 //
