@@ -176,10 +176,15 @@ background-color: black;
      display: none;
      opacity: 0;
    }
-
+   .image-creative {
+     float: none;
+   }
 
    .hisImageLG {
      height: 1000px;
+   }
+   .small {
+     float:none;
    }
 
    .image-small {
@@ -191,6 +196,7 @@ background-color: black;
    .textPast, .textPresent, .textFuture , .textCreative {
     float: none;
     clear: both;
+    text-align: center;
     width: 100%;
     margin: 10px;
 

@@ -25,7 +25,10 @@ body{
   height: 150px;
   overflow: hidden;
   border-bottom: 2px solid $green;
-  .titles {text-align: center}
+
+  .titles {
+    text-align: center;
+  }
 }
 
 .sciImageLG {
@@ -38,19 +41,11 @@ body{
 
 img.large {
   box-sizing: border-box;
-  // border-bottom: 2px solid $green;
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-// img.large.history {
-//   box-sizing: border-box;
-//   border-bottom: 2px solid $blue;
-//   height: 100%;
-//   width: 100%;
-//   object-fit: cover;
-// }
 
 .sciImageLG {
   position: relative;
@@ -63,12 +58,26 @@ img.large {
   top: 0;
   left: 0;
   z-index: -10;
+  p {
+  text-align: right;
+  padding-left: 70px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+  h1 {
+  text-align: right;
+  padding-left: 70px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
 }
 
 .image-small {
   width: 45%;
   height: 500px;
   float: left;
+  margin-right: 10px;
 }
 
 .small {
@@ -78,10 +87,49 @@ img.large {
   float: left;
 }
 
+.textA {
+  float:right;
+  width: 45%;
+  margin: 10px;
+}
+.textB {
+  float:right;
+  width: 45%;
+  margin: 10px;
+}
+.textC {
+  float:right;
+  width: 45%;
+  margin: 10px;
+}
+.textD {
+  float:right;
+  width: 45%;
+  margin: 10px;
+}
+.textE {
+  float:right;
+  width: 45%;
+  margin: 10px;
+}
+
+.textF {
+  float:right;
+  width: 45%;
+  margin: 10px;
+}
+.textG {
+  float:right;
+  width: 45%;
+  margin: 10px;
+}
 .textH {
   float:right;
   width: 45%;
+  margin: 10px;
 }
+
+
 
 h1  {
 color: $white;
@@ -91,4 +139,57 @@ h2 {
 background-color: black;}
 
 p {
-background-color: black;}
+background-color: black;
+}
+
+@media(max-width: 767px) {
+  // the large photos gone
+
+   img.large {
+     display: none;
+     opacity: 0;
+   }
+
+   .sciImageLG {
+     height: 1000px;
+   }
+   .small {
+     float:none;
+   }
+
+   .image-small {
+     float: none;
+     clear: both;
+     width: 100%;
+   }
+
+   .textA , .textB , .textC , .textD , .textE , .textF , .textG , .textH  {
+    float: none;
+    clear: both;
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+
+  }
+
+    .image-with-text h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 2px;
+    text-align: center;
+    font-size: 16px;
+    margin: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.image-with-text p{
+  text-align: center;
+  font-size: 16px;
+  margin: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+}
